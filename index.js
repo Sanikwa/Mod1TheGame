@@ -71,14 +71,14 @@ for(let i = 0; i<9;i++){
 
         if (clickedSquare[optionA]=== player_1 && clickedSquare[optionB]===player_1 && clickedSquare[optionC]===player_1){
             console.log("player_1 winner");
-            winner.innerHTML="You Beat Player 2"
+            winner.innerHTML=("You beat Player 2")
             clickable=false;
             break;
         }
-        else if(clickedSquare[optionA=== player_2] && clickedSquare[optionB]===player_2 && clickedSquare[optionC]===player_2){
+        else if(clickedSquare[optionA]=== player_2 && clickedSquare[optionB]===player_2 && clickedSquare[optionC]===player_2){
             console.log("Player_2 is the winner");
-            winner.innerHTML = "You Beat Player 1"
-            clickable= false
+            winner.innerHTML = ("You Beat Player 1");
+            clickable= false;
             break;
         }
     

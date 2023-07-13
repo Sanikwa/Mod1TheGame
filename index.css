@@ -1,26 +1,47 @@
 header { 
     text-align: center;
-    font-size: 40px;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+#wrapper{
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+
+
+
+  
+}
 
 button { 
     margin-left:auto;
     margin-right:auto;
+   font-family: cursive;
 }
+
+body{
+font-size: 40px;
+background-color: beige;
+
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
-    background-color: #034071;
+    background-color: aquamarine;
+    font-family: fantasy;
     padding: 10px;
     width: 450px;
     margin: auto;
+    
 
 }
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 3px dotted rgba(0, 0, 0, 0.8);
+    background-color: rgba(203, 11, 177, 0.8);
+    border: 5px double rgba(15, 190, 88, 0.8);
     padding: 20px;
     font-size: 30px;
     display: flex;
@@ -28,3 +49,10 @@ button {
     align-items: center;
 
   }
+  
+#Winner{
+  font-family: cursive;
+  text-align: center;
+  background-color: aquamarine;
+  
+}
